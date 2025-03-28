@@ -1,0 +1,19 @@
+{
+    "name": "webautodash",
+    "version": "1.0.0",
+    "description": "WebAutoDash - Medical Portal Data Extraction Platform",
+    "scripts": {
+        "dev": "./start_servers.sh",
+        "start": "./start_servers.sh",
+        "backend": "cd backend && conda activate medimind && python app.py",
+        "frontend": "cd frontend && npm start"
+    },
+    "keywords": [
+        "medical",
+        "portal",
+        "extraction",
+        "automation"
+    ],
+    "author": "WebAutoDash Team",
+    "license": "MIT"
+}

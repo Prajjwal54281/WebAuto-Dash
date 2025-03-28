@@ -1,0 +1,35 @@
+# MySQL Provider Integration Requirements for WebAutoDash
+# Core MySQL connectivity
+mysql-connector-python==8.0.33
+
+# Environment configuration
+python-dotenv==1.0.0
+
+# Data processing and validation
+jsonschema==4.17.3
+
+# Logging and monitoring
+coloredlogs==15.0.1
+
+# File monitoring and threading
+watchdog==3.0.0
+
+# Date/time processing
+python-dateutil==2.8.2
+
+# Configuration management
+pyyaml==6.0
+
+# Error tracking and monitoring
+sentry-sdk==1.32.0
+
+# Development and testing
+pytest==7.4.0
+pytest-mock==3.11.1
+faker==19.3.0
+
+# Optional: Database migration tools
+alembic==1.12.0
+
+# Optional: Performance monitoring
+psutil==5.9.5 

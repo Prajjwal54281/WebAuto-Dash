@@ -1,0 +1,185 @@
+# Environment variables and configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# JSON files (potentially containing sensitive data)
+*.json
+!package.json
+!package-lock.json
+!manifest.json
+!tsconfig.json
+
+# Sensitive data directories
+Results/
+extraction_checkpoints/
+resume_data/
+backup/
+checkpoints/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+webautodash.db
+
+# Cache and temporary files
+processed_files_cache.json
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Frontend build files
+/frontend/build/
+/frontend/.pnp
+/frontend/.pnp.js
+
+# Testing and coverage
+coverage/
+*.cover
+*.py,cover
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Playwright browsers and traces
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Conda environments
+envs/
+conda-meta/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+
+# Patient data and sensitive information
+*patient*data*.json
+*extraction*.json
+*comprehensive*.json
+*gary_wang*.json
+*backup*.json
+*checkpoint*.json
+
+# Configuration files with credentials
+*config*.yaml
+*credentials*.yaml
+medimind_config*.yaml
+portal_config*.yaml
+
+# Exclude specific directories with sensitive data
+backend/extraction_checkpoints/
+Results/
+tests/test_results/
