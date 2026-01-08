@@ -135,12 +135,6 @@ WebAuto-Dash/
 - **Node.js 16+** with npm
 - **Git** for version control
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/gavksingh/WebAuto-Dash.git
-cd WebAuto-Dash
-```
 
 ### 2. Backend Setup
 
@@ -315,7 +309,7 @@ When reporting bugs, please include:
 - Screenshots or error logs (if applicable)
 - Expected vs. actual behavior
 
-**🔗 [Report an Issue](https://github.com/gavksingh/WebAuto-Dash/issues/new)**
+
 
 ---
 
